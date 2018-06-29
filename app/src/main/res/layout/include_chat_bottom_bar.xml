@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/base_comment_emo_bar"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50.0dip"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:id="@+id/btn_chat_voice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_chat_voice_selector"
+            android:gravity="center"
+            android:textColor="@color/base_color_text_black">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_translation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/translation"
+            android:gravity="center"
+            android:onClick="toAction"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_chat_emo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/btn_chat_emo_selector"
+            android:gravity="center"
+            android:onClick="toAction"
+            android:layout_marginStart="6dp"/>
+        <com.example.lab.android.nuc.chat.Tools.widget.EmoticonsEditText
+            android:id="@+id/edit_user_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/base_edit_input"
+            android:imeOptions="flagForceAscii"
+            android:minHeight="40dp"
+            android:padding="5dp"/>
+        <com.example.lab.android.nuc.chat.RecorderVoice.AudioRecorderButton
+            android:id="@+id/btn_speak"
+            style="@style/Smile.TextView._Black"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/str_recorder_normal"
+            android:textColor="#727272"
+            android:background="@drawable/btn_recorder_normal"
+            android:minHeight="0dp"
+            android:visibility="gone">
+        </com.example.lab.android.nuc.chat.RecorderVoice.AudioRecorderButton>
+
+        <Button
+            android:id="@+id/btn_chat_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_chat_add_selector"
+            android:gravity="center"
+            android:onClick="toAction"/>
+        <Button
+            android:id="@+id/btn_chat_keyboard"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:background="@drawable/btn_chat_keyboard_selector"/>
+        <Button
+            android:id="@+id/btn_chat_send"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_chat_send_selector"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/base_color_text_black" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

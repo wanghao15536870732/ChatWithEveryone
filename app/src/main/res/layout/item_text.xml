@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:padding="10dp">
+    <!--Padding 为内边框，指该控件内部内容，如文本/图片距离该控件的边距-->
+
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/head_left"
+            android:layout_marginLeft="5dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_message_left">
+            <!--处与整个text的左边-->
+            <TextView
+                android:id="@+id/left_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="在么对付哈佛空间哦i 而饿热望热热儿二恶热"
+                android:maxWidth="140dp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatto_bg_focused">
+            <!--处与整个text的左边-->
+            <TextView
+                android:id="@+id/lright_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="在么对付哈佛空间哦i 而饿热望热热儿二恶热"
+                android:maxWidth="140dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/id_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon"
+            />
+    </LinearLayout>
+</LinearLayout>
