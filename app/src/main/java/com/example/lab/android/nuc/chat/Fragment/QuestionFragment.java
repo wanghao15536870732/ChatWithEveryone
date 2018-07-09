@@ -32,9 +32,11 @@ import com.example.lab.android.nuc.chat.Base.Question.Question;
 import com.example.lab.android.nuc.chat.Base.Question.QuestionList;
 import com.example.lab.android.nuc.chat.Base.RoundImageView.RoundRectangleImageView;
 import com.example.lab.android.nuc.chat.R;
+import com.example.lab.android.nuc.chat.RecorderVoice.PicassoImageLoader;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
+import com.squareup.picasso.Picasso;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -207,7 +209,8 @@ public class QuestionFragment extends android.support.v4.app.Fragment implements
 //                Glide.with( getActivity() ).load( mQuestionList.get( position ).getPeople_imageId() ).
 //                        into( holder.question_peo_Image );
 //            holder.question_peo_Image.setImageResource(question.getPeople_imageId());
-            Glide.with(getContext()).load(getContext().getDrawable(question.getPeople_imageId())).into(holder.question_peo_Image);
+//            Glide.with(getContext()).load(getContext().getDrawable(question.getPeople_imageId())).into(holder.question_peo_Image);
+//            Picasso.with( getContext() ).load( String.valueOf( getContext().getDrawable( question.getPeople_imageId()) ) ).into( holder.question_peo_Image );
             holder.country_Image.setImageResource(question.getCountry_imageId());
             holder.question_peo_Name.setText(question.getName());
             holder.question_time.setText(question.getTime());
@@ -230,6 +233,7 @@ public class QuestionFragment extends android.support.v4.app.Fragment implements
     }
 
 
+    @SuppressLint("SimpleDateFormat")
     SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日   HH:mm:ss");
     Date curDate = new Date(System.currentTimeMillis());
     private String str = formatter.format(curDate);
@@ -272,16 +276,16 @@ public class QuestionFragment extends android.support.v4.app.Fragment implements
 
     //为题数据的添加
     private void initQuestion() {
-        Question question_1 = new Question("李沙", R.drawable.ic_s1, "十天前",
+        Question question_1 = new Question("李沙", R.mipmap.ic_s1, "十天前",
                 "美国", R.drawable.country_1, "Are you making progress?", "");
         mQuestions.add(question_1);
-        Question question_2 = new Question("Bruno", R.drawable.ic_s2, "三天前",
+        Question question_2 = new Question("Bruno", R.mipmap.ic_s2, "三天前",
                 "法国", R.drawable.country_2, " What happened?”? ", "");
         mQuestions.add(question_2);
-        Question question_3 = new Question("Borg", R.drawable.ic_s3, "刚刚",
+        Question question_3 = new Question("Borg", R.mipmap.ic_s3, "刚刚",
                 "巴西", R.drawable.country_3, "Have you got it?", "");
         mQuestions.add(question_3);
-        Question question_4 = new Question("Christopher", R.drawable.ic_s4, "一天前",
+        Question question_4 = new Question("Christopher", R.mipmap.ic_s4, "一天前",
                 "中国", R.drawable.country, "与您合作很愉快。 in English speaking?", "");
         mQuestions.add(question_4);
 

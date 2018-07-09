@@ -155,5 +155,6 @@
     <string name="appid">5ad97691</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="introduce">I have a TEFL certificate, but have not put it to good use just yet.</string>
-    <string name="plan">2018/6/19 上午10:00-上午12:00\n\n2018/6/19 下午13:00-下午17:00\n\n2018/6/20 上午10:00-上午12:00\n\n2018/6/20 下午13:00-下午17:00</string>
+    <string name="plan">2018/6/19 上午10:00-上午12:00
+        2018/6/19 下午13:00-下午17:00\n\n2018/6/20 上午10:00-上午12:00\n\n2018/6/20 下午13:00-下午17:00</string>
 </resources>

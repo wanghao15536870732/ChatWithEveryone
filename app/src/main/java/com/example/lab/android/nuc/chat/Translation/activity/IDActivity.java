@@ -90,8 +90,8 @@ public class IDActivity extends AppCompatActivity {
         mBtnSet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String appid=mEtId.getText().toString();
-                String pw=mEtPw.getText().toString();
+                String appid = mEtId.getText().toString();
+                String pw = mEtPw.getText().toString();
 
 
                 File dir = getApplicationContext().getFilesDir();//查找这个应用下的所有文件所在的目录
@@ -137,5 +137,7 @@ public class IDActivity extends AppCompatActivity {
             return null;
         }
     }
+
+
 }
 

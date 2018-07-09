@@ -75,12 +75,14 @@
     <application
         android:name=".Application.MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator">
+        tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator"
+        android:largeHeap = "true"
+        android:hardwareAccelerated="false">
 
 
         <meta-data
@@ -115,7 +117,9 @@
 
         <activity
             android:name=".Activity.CommunityChatActivity"
-            tools:ignore="InnerclassSeparator" />
+            tools:ignore="InnerclassSeparator"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"/>
         <activity
             android:name=".Activity.ContactActivity"
             tools:ignore="InnerclassSeparator" />

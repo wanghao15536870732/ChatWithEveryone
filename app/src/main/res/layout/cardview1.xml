@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/message_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -49,5 +50,20 @@
         android:text="下午10:24"
         android:layout_alignParentRight="true"
         android:layout_marginRight="14dp" />
+
+    <com.example.lab.android.nuc.chat.Utils.DragBubbleView
+        android:id="@+id/dragBubbleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/friend_icon"
+        android:layout_alignParentEnd="true"
+        app:bubbleColor="#ff0000"
+        app:bubbleRadius="16dp"
+        app:textColor="#ffffff"
+        app:textSize="16sp"
+        android:layout_marginRight="15dp"
+        app:text="99+"
+        android:foregroundGravity="center"/>
+
 
 </RelativeLayout>

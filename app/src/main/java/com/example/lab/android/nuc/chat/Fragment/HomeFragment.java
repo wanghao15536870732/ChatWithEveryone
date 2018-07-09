@@ -228,21 +228,21 @@ public class HomeFragment extends Fragment implements SwipeRefreshLayout.OnClick
 
     }
     private Contact[] mContacts= {
-            new Contact("Abbott",R.drawable.ic_s1,R.drawable.ic_dot_24dp,
+            new Contact("Abbott",R.mipmap.ic_s1,R.drawable.ic_dot_24dp,
                     "汉语","英语","初级水平"),
-            new Contact("李沙",R.drawable.ic_s2,R.drawable.ic_off_dot_24dp,
+            new Contact("李沙",R.mipmap.ic_s2,R.drawable.ic_off_dot_24dp,
                     "法语","汉语","中级水平"),
-            new Contact("Abraham",R.drawable.ic_s3,R.drawable.ic_off_dot_24dp,
+            new Contact("Abraham",R.mipmap.ic_s3,R.drawable.ic_off_dot_24dp,
                     "韩语","汉语","高级水平"),
-            new Contact("Baron",R.drawable.ic_s4,R.drawable.ic_dot_24dp,
+            new Contact("Baron",R.mipmap.ic_s4,R.drawable.ic_dot_24dp,
                     "日语","俄语","初级水平"),
-            new Contact("Bruno",R.drawable.ic_s6,R.drawable.ic_off_dot_24dp,
+            new Contact("Bruno",R.mipmap.ic_s6,R.drawable.ic_off_dot_24dp,
                     "阿拉伯语","英语","中级水平"),
-            new Contact("Borg",R.drawable.ic_s7,R.drawable.ic_dot_24dp,
+            new Contact("Borg",R.mipmap.ic_s7,R.drawable.ic_dot_24dp,
                     "俄语","汉语","高级水平"),
-            new Contact("Christopher",R.drawable.ic_s8,R.drawable.ic_dot_24dp,
+            new Contact("Christopher",R.mipmap.ic_s8,R.drawable.ic_dot_24dp,
                     "汉语","日语","初级水平"),
-            new Contact("Derrick",R.drawable.ic_s5,R.drawable.ic_off_dot_24dp,
+            new Contact("Derrick",R.mipmap.ic_s5,R.drawable.ic_off_dot_24dp,
                     "汉语","韩语","中级水平")
     };
     private void refreshContacts(){

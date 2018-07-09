@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/question_item"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:largeHeap="true">
 
     <RelativeLayout
         android:layout_marginTop="10dp"
@@ -26,7 +27,8 @@
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/apple_pic" />
+                android:src="@drawable/apple_pic"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
