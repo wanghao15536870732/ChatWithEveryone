@@ -42,6 +42,8 @@
 
 ## 具体界面
 
+<div align="center">
+
 ||||
 |:--:|:--:|:--:|
 |![语音测评主界面](https://upload-images.jianshu.io/upload_images/9140378-af9d883ecdb4d5d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![基础练习](https://upload-images.jianshu.io/upload_images/9140378-65c65df3b3fc4dcc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
