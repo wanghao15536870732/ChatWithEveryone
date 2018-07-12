@@ -1,5 +1,4 @@
 # 项目背景
-
 > &emsp;“一带一路”建设是在我国构建全方位开放新格局，深度融入世界经济体系背景下提出的重大倡议，旨在促进经济要素有序自由流动、资源高效配置和市场深度融合，推动沿线各国实现经济政策协调，开展更大范围、更高水平、更深层次的区域合作，共同打造开放、包容、均衡、普惠的区域经济合作架构，维护全球自由贸易体系和开放型世界经济。<br>[查看出处](http://history.mofcom.gov.cn/?newchina=%E4%B8%80%E5%B8%A6%E4%B8%80%E8%B7%AF%E5%80%A1%E8%AE%AE%E7%9A%84%E6%8F%90%E5%87%BA)
 
 <br>
@@ -18,6 +17,45 @@
 
 # 项目介绍
 一带一路不仅是经济的交流，更是文化的交流。无论哪点，都需要语言上的沟通才能更好的促进这一过程。教育部发文，要促进沿线国家语言沟通，要把中国打造成为深受沿线各国学子欢迎的留学目的地国。如何更快的提高广大学子们的口语，达到日常沟通的能力，这肯定是困扰他们的难题。为此，我们推出一款应用，让他们能够足不出户的练习口语(语伴和老师教学)。这个APP不是单向的即不是只能外国人学习普通话，而是多向的即国人可以学习其他国家的语言，甚至还能相互学习一带一路其他国家的语言。但是主要功能是学习普通话，在学习的同时传播中国传统文化，例如儒家文化，唐诗宋词。
+
+<div align="center">
+    
+ # 一路语伴
+ 
+<img src="https://github.com/wanghao15536870732/ChatWithEveryone/blob/master/logo_e.png" height="100px" width="100px"/>
+
+## 一款辅助一带一路周边国家学汉语口语的app　
+   
+## Feature (功能)
+
+||||
+|:--:|:--:|:--:|
+|功能名称||功能描述|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-69a57f09ae3fe854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![demo.png](https://upload-images.jianshu.io/upload_images/9140378-24a6c3ab52e047d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-a0d07beeb154d89e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![wang.png](https://upload-images.jianshu.io/upload_images/9140378-1b60298574d8902f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-ad16e675ac11f268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![hja.png](https://upload-images.jianshu.io/upload_images/9140378-7e62cddb74fad6a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-3b07064e1e16eb94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![d.png](https://upload-images.jianshu.io/upload_images/9140378-7d29cca27a917242.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-89c563cee54b5998.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![fd.png](https://upload-images.jianshu.io/upload_images/9140378-cd63398e2c29d6d6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-8f9ec85af02ddf2d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![f.png](https://upload-images.jianshu.io/upload_images/9140378-dab6a5132360a6dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-753f52b1a327a950.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![d (2).png](https://upload-images.jianshu.io/upload_images/9140378-6ba676a3814d1bef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![image.png](https://upload-images.jianshu.io/upload_images/9140378-9dbee4bd3c4543f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![f (2).png](https://upload-images.jianshu.io/upload_images/9140378-56d033138ac4b59e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+
+## 具体界面
+
+||||
+|:--:|:--:|:--:|
+|![语音测评主界面](https://upload-images.jianshu.io/upload_images/9140378-af9d883ecdb4d5d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![基础练习](https://upload-images.jianshu.io/upload_images/9140378-65c65df3b3fc4dcc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![视频指导老师界面](https://upload-images.jianshu.io/upload_images/9140378-30c034840230f0db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![老师界面](https://upload-images.jianshu.io/upload_images/9140378-1cdfd1fe6498b2a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![社群聊天界面](https://upload-images.jianshu.io/upload_images/9140378-5832d01bc9fde65b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![社群主界面](https://upload-images.jianshu.io/upload_images/9140378-4a74a1f4cb97cd8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![提问界面](https://upload-images.jianshu.io/upload_images/9140378-d4736ffa86c455e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![聊天的主界面](https://upload-images.jianshu.io/upload_images/9140378-a0fc5941709ac9f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![翻译界面](https://upload-images.jianshu.io/upload_images/9140378-0c24f8b8ddf0ac69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![语音识别合成界面](https://upload-images.jianshu.io/upload_images/9140378-d8a302c12afd98c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+|![注册界面](https://upload-images.jianshu.io/upload_images/9140378-05d764654c3c31fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![登陆界面](https://upload-images.jianshu.io/upload_images/9140378-00d8edf23f126ad4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
+
+<div/>
+    
+
+
+
 
 # 应用功能设想
 
