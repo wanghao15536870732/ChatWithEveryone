@@ -25,6 +25,8 @@
 <img src="https://github.com/wanghao15536870732/ChatWithEveryone/blob/master/logo_e.png" height="100px" width="100px"/>
 
 ## 一款辅助一带一路周边国家学汉语口语的app　
+
+<a href="https://pan.baidu.com/s/1n7p9W1kOxHOioGBFiJ5OCQ?raw=true">点击下载</a>
    
 ## Feature (功能)
 
