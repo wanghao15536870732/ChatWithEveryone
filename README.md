@@ -40,7 +40,7 @@
 |![image.png](https://upload-images.jianshu.io/upload_images/9140378-753f52b1a327a950.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![d (2).png](https://upload-images.jianshu.io/upload_images/9140378-6ba676a3814d1bef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
 |![image.png](https://upload-images.jianshu.io/upload_images/9140378-9dbee4bd3c4543f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![f (2).png](https://upload-images.jianshu.io/upload_images/9140378-56d033138ac4b59e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
 
-<div/>
+</div>
 
 ## 具体界面
 
@@ -55,11 +55,8 @@
 |![翻译界面](https://upload-images.jianshu.io/upload_images/9140378-0c24f8b8ddf0ac69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![语音识别合成界面](https://upload-images.jianshu.io/upload_images/9140378-d8a302c12afd98c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
 |![注册界面](https://upload-images.jianshu.io/upload_images/9140378-05d764654c3c31fe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)||![登陆界面](https://upload-images.jianshu.io/upload_images/9140378-00d8edf23f126ad4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)|
 
-<div/>
+</div>
     
-
-
-
 
 # 应用功能设想
 
